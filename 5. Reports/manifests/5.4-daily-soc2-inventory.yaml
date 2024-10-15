@@ -1,0 +1,9 @@
+apiVersion: projectcalico.org/v3
+kind: GlobalReport
+metadata:
+  name: daily-soc2-inventory
+spec:
+  reportType: inventory
+  endpoints:
+    selector: soc2 == "true"
+  schedule: 8 6 * * *

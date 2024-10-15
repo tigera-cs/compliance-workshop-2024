@@ -1,0 +1,9 @@
+apiVersion: projectcalico.org/v3
+kind: GlobalReport
+metadata:
+  name: daily-soc2-network-access
+spec:
+  reportType: network-access
+  endpoints:
+    selector: soc2 == "true"
+  schedule: 0 1 * * *
