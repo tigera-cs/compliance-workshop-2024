@@ -53,9 +53,9 @@
    You may get an output like the following
 
    <pre>
-Name                     Location       ResourceGroup           KubernetesVersion    CurrentKubernetesVersion    ProvisioningState    Fqdn
------------------------  -------------  ----------------------  -------------------  --------------------------  -------------------  -----------------------------------------------------------------------
-aks-compliance-workshop  canadacentral  rg-compliance-workshop  1.29                 1.29.8                      Succeeded            aks-compli-rg-compliance-wo-2829a3-155loz1r.hcp.canadacentral.azmk8s.io
+   Name                     Location       ResourceGroup           KubernetesVersion             CurrentKubernetesVersion    ProvisioningState    Fqdn
+   -----------------------  -------------  ----------------------  -------------------  --------------------------  -------------------  -----------------------------------------------------------------------
+   aks-compliance-workshop  canadacentral  rg-compliance-workshop  1.29                 1.29.8                      Succeeded            aks-compli-rg-compliance-wo-2829a3-155loz1r.hcp.canadacentral.azmk8s.io
    </pre>
 
 5. Get the credentials to connect to the cluster.
@@ -73,9 +73,9 @@ aks-compliance-workshop  canadacentral  rg-compliance-workshop  1.29            
    The output will ne something similar to the this:
 
    <pre>
-   NAME                                STATUS   ROLES   AGE     VERSION
-   aks-nodepool1-17553008-vmss000000   Ready    agent   3m52s   v1.23.15
-   aks-nodepool1-17553008-vmss000001   Ready    agent   3m46s   v1.23.15
+   NAME                                STATUS   ROLES    AGE   VERSION
+   aks-nodepool1-19595325-vmss000003   Ready    <none>   3h    v1.29.2
+   aks-nodepool1-19595325-vmss000004   Ready    <none>   3h    v1.29.2
    </pre>
 
    To see more details about your cluster:
