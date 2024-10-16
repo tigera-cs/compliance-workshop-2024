@@ -53,9 +53,9 @@
    You may get an output like the following
 
    <pre>
-   Name                     Location       ResourceGroup           KubernetesVersion    CurrentKubernetesVersion    ProvisioningState    Fqdn
-   -----------------------  -------------  ----------------------  -------------------  --------------------------  -------------------  -----------------------------------------------------------------------
-   aks-compliance-workshop  canadacentral  rg-compliance-workshop  1.23                 1.23.15                     Succeeded            aks-compli-rg-compliance-wo-03cfb8-cb3730b2.hcp.canadacentral.azmk8s.io
+Name                     Location       ResourceGroup           KubernetesVersion    CurrentKubernetesVersion    ProvisioningState    Fqdn
+-----------------------  -------------  ----------------------  -------------------  --------------------------  -------------------  -----------------------------------------------------------------------
+aks-compliance-workshop  canadacentral  rg-compliance-workshop  1.29                 1.29.8                      Succeeded            aks-compli-rg-compliance-wo-2829a3-155loz1r.hcp.canadacentral.azmk8s.io
    </pre>
 
 5. Get the credentials to connect to the cluster.
